@@ -6,6 +6,9 @@ gender = "female"
 
 
 
+
+
+
 print("my name is " + first_name + " " + last_name +
        " " + "mne " + str(age) + " " + "years old, I feel a " + gender + "myself")
 
