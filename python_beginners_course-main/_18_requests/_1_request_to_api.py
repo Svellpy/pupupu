@@ -1,11 +1,11 @@
 import requests
 
-response = requests.get('https://api.binance.com/api/v3/ticker/price', params={'symbol': 'BTCUSDT'})
-content = response.content
-print(content)
-print(type(content))
-price_object = response.json()
-price = float(price_object['price'])
+# response = requests.get('https://api.binance.com/api/v3/ticker/price', params={'symbol': 'BTCUSDT'})
+# content = response.content
+# print(content)
+# print(type(content))
+# price_object = response.json()
+# price = float(price_object['price'])
 
 import time
 
